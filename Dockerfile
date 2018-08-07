@@ -23,7 +23,7 @@ VOLUME /home/frab/app/public
 EXPOSE 3000
 
 ENV RACK_ENV=production \
-    SECRET_KEY_BASE=asdkjf3245jsjfakjq435jadsgjlkq4j5jwj45jasdjvlj \
+    SECRET_KEY_BASE=asdkjf3245jsjwaA§W$W$4aw44rW$$akjq435jadsgjlkq4j5jwj45jasdjvlj \
     FRAB_HOST=localhost \
     FRAB_PROTOCOL=http \
     RAILS_SERVE_STATIC_FILES=true \
