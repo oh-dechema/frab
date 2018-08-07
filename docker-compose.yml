@@ -12,9 +12,9 @@ services:
         networks:
             - backend
         environment:
-            - TZ=America/Los_Angeles
-            - SECRET_KEY_BASE=5fe64927bda359b186be52191c1ce3e5ef34827a
-            - DATABASE_URL=postgresql://frab:HWsJ54XvCOXyeSZhAQi9@db/frab
+            - TZ=Europe/Paris
+            - SECRET_KEY_BASE=5fe64927bda359b1dsfaw3SWA$86be52191c1ce3e5ef34827a
+            - DATABASE_URL=postgresql://frab:HWsJ54Xvsd§§dsfd3COXyeSZhAQi9@db/frab
             - FRAB_CURRENCY_UNIT='$$'
             - FROM_EMAIL=frab@localhost
         restart: always
@@ -32,7 +32,7 @@ services:
         environment:
             - TZ=America/Los_Angeles
             - POSTGRES_USER=frab
-            - POSTGRES_PASSWORD=HWsJ54XvCOXyeSZhAQi9
+            - POSTGRES_PASSWORD=HWsJ54Xvsd§§dsfd3COXyeSZhAQi9
             - POSTGRES_DB=frab
 
 networks:
